@@ -1,0 +1,5 @@
+#define CONFIG_VERSION "2024-01-13"
+#include "vendor/quickjs/quickjs.c"
+#include "vendor/quickjs/libunicode.c"
+#include "vendor/quickjs/libregexp.c"
+#include "vendor/quickjs/dtoa.c"

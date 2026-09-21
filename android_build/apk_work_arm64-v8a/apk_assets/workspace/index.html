@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex SoundWave Studio - All Features Live</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-layout">
+        <!-- 1. Left Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <h1>🎵 SoundWave AI</h1>
+                <p><small>Next-Gen Browser Engine</small></p>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-item active">🎧 Studio & SVG (Page 1)</a>
+                <a href="fleet.html" class="nav-item">🚀 Space Fleet (Page 2)</a>
+                <a href="telemetry.html" class="nav-item">📊 Telemetry (Page 3)</a>
+                <a href="general_spec_test.html" class="nav-item" style="color: #38bdf8; font-weight: bold;">🧪 W3C Spec
+                    & Radio (Page 4) this is simple</a>
+                <div class="nav-item">⚙️ Audio Settings</div>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="eq-toggle">
+                    <input id="cb-eq" type="checkbox">
+                    <label class="eq-label">Spatial Bass Boost</label>
+                </div>
+                <div id="live-timer" class="studio-badge">⚡ Uptime: 0s</div>
+            </div>
+        </aside>
+
+        <!-- 2. Main Studio Area -->
+        <main class="main-content">
+            <!-- Header Toolbar with Dropdown & !important Badge -->
+            <header class="studio-topbar">
+                <input id="search-bar" type="text" placeholder="Search tracks, telemetry, soundscapes..."
+                    class="track-search">
+                <select id="audio-quality" class="quality-select">
+                    <option>Lossless 24-bit / 192kHz</option>
+                    <option>Hi-Fi Master FLAC</option>
+                    <option>Standard 320kbps MP3</option>
+                </select>
+                <!-- 🌟 Testing CSS !important override -->
+                <span class="prio-tag">MASTER AUDIO</span>
+            </header>
+
+            <!-- 🌟 Live 60 FPS HTML5 <canvas> Audio Spectrum Visualizer -->
+            <section class="visualizer-card">
+                <div class="visualizer-header">
+                    <h3>Live Audio Spectrum & Waveform Visualizer</h3>
+                    <span class="canvas-tag">60 FPS Canvas 2D</span>
+                </div>
+                <div class="canvas-container">
+                    <canvas id="waveform-canvas" width="480" height="90" class="audio-canvas"></canvas>
+                </div>
+            </section>
+
+            <!-- 🌟 SVG Vector Icons & 60 FPS Smooth Lift Test Lab -->
+            <section class="svg-lab-card">
+                <div class="lab-header">
+                    <h3>SVG Vector Icons & 60 FPS Smooth Transition Test Lab</h3>
+                    <span class="engine-tag">Pure W3C Vector & LERP</span>
+                </div>
+                <p class="lab-subtitle">Hover over these SVG cards to see 60 FPS real-time smooth color transitions and
+                    8px hover lift:</p>
+
+                <div class="svg-grid">
+                    <!-- SVG 1: Lightning Bolt -->
+                    <div class="svg-tile tile-blue" data-engine="quantum">
+                        <svg viewBox="0 0 24 24" class="svg-icon">
+                            <path d="M 13 2 L 4 14 L 11 14 L 9 22 L 20 10 L 13 10 Z" fill="#38bdf8" stroke="#0284c7"
+                                stroke-width="1.5"></path>
+                        </svg>
+                        <h4>Quantum Core</h4>
+                        <p>13.2 GHz Vector Clock</p>
+                    </div>
+
+                    <!-- SVG 2: Rocket / Launch Arrow -->
+                    <div class="svg-tile tile-orange" data-engine="hyper">
+                        <svg viewBox="0 0 24 24" class="svg-icon">
+                            <path d="M 12 2 L 20 9 L 15 9 L 15 20 L 9 20 L 9 9 L 4 9 Z" fill="#fb923c" stroke="#ea580c"
+                                stroke-width="1.5"></path>
+                        </svg>
+                        <h4>Hyper Drive</h4>
+                        <p>Mach 4.8 Telemetry</p>
+                    </div>
+
+                    <!-- SVG 3: Shield Diamond -->
+                    <div class="svg-tile tile-purple" data-engine="shield">
+                        <svg viewBox="0 0 24 24" class="svg-icon">
+                            <path d="M 12 2 L 20 6 L 20 12 L 12 20 L 4 12 L 4 6 Z" fill="#c084fc" stroke="#9333ea"
+                                stroke-width="1.5"></path>
+                        </svg>
+                        <h4>Neural Shield</h4>
+                        <p>256-bit Armor Matrix</p>
+                    </div>
+
+                    <!-- SVG 4: Play Triangle -->
+                    <div class="svg-tile tile-emerald" data-engine="playback">
+                        <svg viewBox="0 0 24 24" class="svg-icon">
+                            <path d="M 6 4 L 20 12 L 6 20 Z" fill="#34d399" stroke="#059669" stroke-width="1.5"></path>
+                        </svg>
+                        <h4>Hi-Fi Playback</h4>
+                        <p>Lossless 192kHz Stream</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 🌟 Live element.innerHTML Injection Lab -->
+            <section class="live-html-card">
+                <div class="creator-header">
+                    <h3>⚡ Live JavaScript innerHTML Injection Lab</h3>
+                    <button id="btn-inject-html" class="add-btn grad-purple">Inject HTML Card</button>
+                </div>
+                <div id="injected-container" class="injected-box">
+                    <p class="inject-placeholder">Click 'Inject HTML Card' to test live QuickJS element.innerHTML
+                        dynamic DOM parsing!</p>
+                </div>
+            </section>
+
+            <!-- Hero Banner with Decoded Album Art -->
+            <section class="hero-banner">
+                <div class="album-container">
+                    <img src="bugatti_interior_pov.png" class="album-art">
+                    <span class="floating-live-tag">LIVE • 4K</span>
+                </div>
+
+                <div class="hero-info">
+                    <span class="now-badge">NOW STREAMING</span>
+                    <h2>Cyberpunk Horizon (Original Mix)</h2>
+                    <p>Artist: <b>Nova Waveform</b> • Album: <strong>Neon Velocity</strong> • <small>Dolby Atmos
+                            Master</small></p>
+                    <div class="playback-bar">
+                        <span id="track-time" class="time-label">0:01 / 4:30</span>
+                    </div>
+                    <button id="btn-play" class="play-btn grad-emerald">⏸ Pause Track</button>
+                </div>
+            </section>
+
+            <!-- Dynamic Track Creator Form -->
+            <section class="creator-card">
+                <div class="creator-header">
+                    <h3>➕ Create & Add New Studio Track</h3>
+                    <button id="btn-add-track" class="add-btn grad-emerald">Insert to Playlist</button>
+                </div>
+                <div class="creator-inputs">
+                    <input id="input-title" type="text" placeholder="Enter song title (e.g. Neon Sunrise)..."
+                        class="creator-field">
+                    <input id="input-artist" type="text" placeholder="Enter genre / BPM (e.g. Synthpop • 128 BPM)..."
+                        class="creator-field">
+                </div>
+            </section>
+
+            <!-- Dynamic Playlist Section -->
+            <section id="playlist-container" class="playlist-section">
+                <h3 class="section-title">Trending Master Playlist</h3>
+
+                <div id="track-1" class="track-row">
+                    <div class="thumb-container">
+                        <img src="bugatti_front_34.png" class="track-thumb">
+                        <span class="rank-badge">#1</span>
+                    </div>
+                    <div class="track-meta">
+                        <h4>01. Velocity Synthwave</h4>
+                        <p>Electro Pulse • 140 BPM</p>
+                    </div>
+                    <div class="track-bitrate">FLAC 24-bit</div>
+                    <button class="like-btn grad-purple">❤️ Like</button>
+                </div>
+
+                <div id="track-2" class="track-row">
+                    <div class="thumb-container">
+                        <img src="bugatti_wheel_detail.png" class="track-thumb">
+                        <span class="rank-badge">#2</span>
+                    </div>
+                    <div class="track-meta">
+                        <h4>02. Titanium Resonance</h4>
+                        <p>Deep Ambient Beats • 120 BPM</p>
+                    </div>
+                    <div class="track-bitrate">Studio Master</div>
+                    <button class="like-btn grad-orange">❤️ Like</button>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,14 @@
+Set-Content -Path .gitignore -Value @"
+Ai_History/
+_backup_golden_stable/
+*.zip
+autoupdater.py
+autoupdater_fixer.py
+sc.py
+cmd.md
+Full_Complete_Updated_Code.md
+output.md
+OUTPUT.TXT
+prompt.md
+table.md
+"@

@@ -1,0 +1,19 @@
+Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35719 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+roopm_render.cpp
+roopm_font.cpp
+platform_win32.cpp
+app.cpp
+Generating Code...
+Microsoft (R) Incremental Linker Version 14.50.35719.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:build\roopm_demo.exe 
+user32.lib 
+gdi32.lib 
+/SUBSYSTEM:WINDOWS 
+roopm_render.obj 
+roopm_font.obj 
+platform_win32.obj 
+app.obj 

@@ -1,0 +1,66 @@
+Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35719 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+test_transform_diagnostics.cpp
+roopm_render.cpp
+roopm_font.cpp
+roopm_image.cpp
+YGConfig.cpp
+YGEnums.cpp
+YGNode.cpp
+YGNodeLayout.cpp
+YGNodeStyle.cpp
+YGPixelGrid.cpp
+YGValue.cpp
+AbsoluteLayout.cpp
+Baseline.cpp
+Cache.cpp
+CalculateLayout.cpp
+FlexLine.cpp
+PixelGrid.cpp
+LayoutResults.cpp
+Node.cpp
+Config.cpp
+Generating Code...
+Compiling...
+AssertFatal.cpp
+Log.cpp
+event.cpp
+Generating Code...
+Microsoft (R) Incremental Linker Version 14.50.35719.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:build\test_diag.exe 
+/SUBSYSTEM:CONSOLE 
+/Fobuild\ 
+test_transform_diagnostics.obj 
+roopm_render.obj 
+roopm_font.obj 
+roopm_image.obj 
+YGConfig.obj 
+YGEnums.obj 
+YGNode.obj 
+YGNodeLayout.obj 
+YGNodeStyle.obj 
+YGPixelGrid.obj 
+YGValue.obj 
+AbsoluteLayout.obj 
+Baseline.obj 
+Cache.obj 
+CalculateLayout.obj 
+FlexLine.obj 
+PixelGrid.obj 
+LayoutResults.obj 
+Node.obj 
+Config.obj 
+AssertFatal.obj 
+Log.obj 
+event.obj 
+build\quickjs_unity.obj 
+build\lexbor_unity.obj 
+user32.lib 
+advapi32.lib 
+shell32.lib 
+gdi32.lib 
+shcore.lib 
+LINK : warning LNK4044: unrecognized option '/Fobuild\'; ignored

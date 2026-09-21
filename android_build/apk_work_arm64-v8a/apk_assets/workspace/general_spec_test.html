@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Universal W3C Spec Compliance Stress-Test</title>
+</head>
+<body style="background-color: #f8fafc; color: #0f172a; padding: 24px; font-family: sans-serif;">
+    <header id="main-header">
+        <h1>W3C Universal Compliance Test</h1>
+        <p>Testing Heading Hierarchy, Lists, Radio Groups & Event Bubbling</p>
+        <hr>
+    </header>
+
+    <main id="content-area">
+        <section id="typography-sec">
+            <h2>Typography & Headings</h2>
+            <h3>Level 3 Subheading</h3>
+            <h4>Level 4 Section</h4>
+            <h5>Level 5 Subsection</h5>
+            <h6>Level 6 Fineprint</h6>
+            <p>Standard paragraph with <b>bold text</b>, <i>italicized emphasis</i>, and <u>underlined hyperlink</u>.</p>
+        </section>
+
+        <section id="form-sec" style="margin-top: 20px;">
+            <h3>Interactive Radio Group & Checkbox</h3>
+            <div id="radio-group" style="display: flex; gap: 12px; margin-top: 8px;">
+                <div>
+                    <input id="rb-standard" type="radio" name="plan" value="standard">
+                    <label>Standard Plan</label>
+                </div>
+                <div>
+                    <input id="rb-pro" type="radio" name="plan" value="pro">
+                    <label>Professional Plan</label>
+                </div>
+            </div>
+
+            <div style="margin-top: 14px;">
+                <input id="cb-agree" type="checkbox">
+                <label>I accept the Universal Terms</label>
+            </div>
+        </section>
+
+        <section id="bubble-sec" style="margin-top: 20px;">
+            <h3>Event Bubbling Button</h3>
+            <button id="btn-bubble-test" style="padding: 10px 20px; background-color: #0284c7; color: #ffffff; border-radius: 8px;">
+                <span id="btn-icon">🚀</span>
+                <span id="btn-label">Launch Engine</span>
+            </button>
+            <div id="bubble-status" style="margin-top: 8px; font-weight: bold; color: #059669;">Pending Launch...</div>
+        </section>
+    </main>
+</body>
+</html>
